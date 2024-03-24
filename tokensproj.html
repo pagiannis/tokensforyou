@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Tokens</title>
+    <style>
+        .displayCard{
+            margin:250px;
+        }
+        .heading-margin {
+            margin-bottom: 10px; /* Adjust the value as per your preference */
+        }
+        .redeem{
+            color:white;
+            background-color: rgb(144, 99, 187);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="displayCard col justify-content-center text-center">
+                <h1 style="color:rgb(144, 99, 187)" class="heading-margin">Your Tokens:</h1>
+                <h2 style="color:rgba(67, 54, 78, 0.937)" id="availableTokens" class="secondary-text bottom-margin"></h2><br><br>
+                <button onclick="redeemToken()" class="btn btn-block redeem">Redeem</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
